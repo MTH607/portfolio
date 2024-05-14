@@ -1,12 +1,10 @@
-
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import '../app.css';
-//This line defines a functional component called "Header"
+
 const Header = () => {
-    //This line utilizes the useState hook
     const [toggle, setToggle] = useState(false);
-    //This line defines a function handleToggle which toggles the value of toggle whenever it's called
+
     const handleToggle = () => setToggle(!toggle);
 
     return (
@@ -27,18 +25,11 @@ const Header = () => {
                     <li>
                         <a href="/#contact">Contact</a>
                     </li>
-                    <li>
-                        <a href="#resume -link" target="_blank" without rel="noreferrer">
-                            Resume
-                        </a>
-                    </li>
                 </ul>
             </nav>
 
             {/* Mobile Nav */}
-            <nav
-                className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
-            >
+            <nav className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}>
                 <ul className="flex flex-col">
                     <li>
                         <a href="/#about">About</a>
@@ -48,9 +39,6 @@ const Header = () => {
                     </li>
                     <li>
                         <a href="/#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="/#resume">Resume</a>
                     </li>
                 </ul>
             </nav>

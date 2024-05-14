@@ -2,13 +2,6 @@ import React from "react";
 import AboutImg from "../assets/hero.jpg";
 
 const About = () => {
-  // Function to handle smooth scrolling when the button is clicked
-  const scrollToProjects = () => {
-    const projectsSection = document.getElementById("projects"); // Get the projects section by its ID
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: "smooth" }); // Scroll to the projects section with smooth behavior
-    }
-  };
   return (
     <section className="bg-secondery text-white py-32 px-5" id="about">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between h-full">
@@ -40,7 +33,6 @@ const About = () => {
           <br></br>
           <button
             className="btn bg-accent border-2 border-[#4F46E5] text-white px-6 py-3 hover:bg-transparent block w-full" // Adjusting button width
-            onClick={scrollToProjects} // Call the scrollToProjects function when the button is clicked
           >
             See Projects
           </button>
