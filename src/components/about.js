@@ -3,7 +3,7 @@ import AboutImg from "../assets/hero.jpg";
 
 const About = () => {
   return (
-    <section className="bg-secondery text-white py-32 px-5" id="about">
+    <section className="bg-secondary text-white py-32 px-5" id="about">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between h-full">
         <div className="about-info text-justify">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
@@ -31,11 +31,11 @@ const About = () => {
           </p>
           <br></br>
           <br></br>
-          <button
+          <a href="/#projects"
             className="btn bg-accent border-2 border-[#4F46E5] text-white px-6 py-3 hover:bg-transparent block w-full" // Adjusting button width
           >
             See Projects
-          </button>
+          </a>
         </div>
         <div className="about-img ">
           <br></br>
@@ -47,7 +47,7 @@ const About = () => {
           />
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 

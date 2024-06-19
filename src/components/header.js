@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
-            <a href="/" className="logo text-2xl font-bold text-accent">
+            <a href="/" className="logo text-2xl">
                 Mohammed Tayyab Hussain
             </a>
 
@@ -21,6 +21,9 @@ const Header = () => {
                     </li>
                     <li>
                         <a href="/#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/#experience">Experience</a>
                     </li>
                     <li>
                         <a href="/#contact">Contact</a>
@@ -36,6 +39,9 @@ const Header = () => {
                     </li>
                     <li>
                         <a href="/#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/#experience">Experience</a>
                     </li>
                     <li>
                         <a href="/#contact">Contact</a>
