@@ -15,6 +15,14 @@
   color: #4f46e5;
 }
 
+.text-primary {
+  color: #001524;
+}
+
+.text-secondary {
+  color: #273249;
+}
+
 h1 {
   font-family: "Pacifico", cursive;
   line-height: 1.5 !important;

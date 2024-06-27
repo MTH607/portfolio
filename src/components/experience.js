@@ -1,70 +1,82 @@
-import React from "react";
-import {
-    Timeline,
-    TimelineItem,
-    TimelineConnector,
-    TimelineHeader,
-    TimelineIcon,
-    TimelineBody,
-    Typography,
-} from "@material-tailwind/react";
+import React from 'react';
 
 const Experience = () => {
     return (
-        <section className="bg-secondary text-white py-32 h-screen " id="experience"> {/* Ensure the section covers the screen */}
-            <div className="container mx-auto w-[60rem]"> {/* Center and constrain the content */}
-                <Timeline>
-                    <TimelineItem>
-                        <TimelineConnector />
-                        <TimelineHeader className="h-3">
-                            <TimelineIcon />
-                            <Typography variant="h6" color="blue-gray" className="leading-none">
-                                Timeline Title Here.
-                            </Typography>
-                        </TimelineHeader>
-                        <TimelineBody className="pb-8">
-                            <Typography variant="small" className="font-normal">
-                                The key to more success is to have a lot of pillows. Put it this way, it took me
-                                twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                                luv.
-                            </Typography>
-                        </TimelineBody>
-                    </TimelineItem>
-                    <TimelineItem>
-                        <TimelineConnector />
-                        <TimelineHeader className="h-3">
-                            <TimelineIcon />
-                            <Typography variant="h6" color="blue-gray" className="leading-none">
-                                Timeline Title Here.
-                            </Typography>
-                        </TimelineHeader>
-                        <TimelineBody className="pb-8">
-                            <Typography variant="small" className="font-normal">
-                                The key to more success is to have a lot of pillows. Put it this way, it took me
-                                twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                                luv.
-                            </Typography>
-                        </TimelineBody>
-                    </TimelineItem>
-                    <TimelineItem>
-                        <TimelineHeader className="h-3">
-                            <TimelineIcon />
-                            <Typography variant="h6" color="blue-gray" className="leading-none">
-                                Timeline Title Here.
-                            </Typography>
-                        </TimelineHeader>
-                        <TimelineBody>
-                            <Typography variant="small" className="font-normal">
-                                The key to more success is to have a lot of pillows. Put it this way, it took me
-                                twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                                luv.
-                            </Typography>
-                        </TimelineBody>
-                    </TimelineItem>
-                </Timeline>
+        <section className="bg-secondary text-white py-32 px-5" id="experience">
+            <div className="container mx-auto items-center md:justify-between">
+                <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-customPurple pb-2">
+                    Experience
+                </h2>
+                <ol className="border-l border-neutral-300 dark:border-neutral-500 md:flex md:justify-center md:gap-12 md:border-l-0">
+                    {/* <!--First item--> */}
+                    <li>
+                        <div className="flex-start flex items-center pt-2 md:block md:pt-0">
+                            <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
+                            <p className="mt-2 text-sm text-neutral-500 dark:text-neutral-300">
+                                Aug 2021 - 22
+                            </p>
+                        </div>
+                        <div className="ml-4 mt-2 pb-5 md:ml-0">
+                            <h4 className="mb-1 text-xl font-semibold">
+                                APPRENTICE IT SPECIALIST (IMS)
+                            </h4>
+                            <h6 className="mb-2 font-semibold">
+                                NOVARTIS AG, BASEL
+                            </h6>
+                            <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                                • Worked on a project as an application developer. <br></br>
+                                • Developed in JavaScript with an internal <br></br>
+                                OpenSource MVC Framework called "WebCardinal"
+                            </p>
+                        </div>
+                    </li>
+                    {/* <!--Second item--> */}
+                    <li>
+                        <div className="flex-start flex items-center pt-2 md:block md:pt-0">
+                            <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
+                            <p className="mt-2 text-sm text-neutral-500 dark:text-neutral-300">
+                                Jan - Apr 2024
+                            </p>
+                        </div>
+                        <div className="ml-4 mt-2 pb-5 md:ml-0">
+                            <h4 className="mb-1 text-xl font-semibold">
+                                Rollout Technician
+                            </h4>
+                            <h6 className="mb-2 font-semibold">
+                                Computacenter
+                            </h6>
+                            <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                                Location: Bank of International Settlements (BIS) <br></br>
+                                • Taking on the responsibility of leading a team <br></br>
+                                • Installation and cabling of screens, webcams and soundbars <br></br>
+                                • On-boarding of screens
+                            </p>
+                        </div>
+                    </li>
+                    {/* <!--Third item--> */}
+                    <li>
+                        <div className="flex-start flex items-center pt-2 md:block md:pt-0">
+                            <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
+                            <p className="mt-2 text-sm text-neutral-500 dark:text-neutral-300">
+                                Apr 2024 - Present
+                            </p>
+                        </div>
+                        <div className="ml-4 mt-2 pb-5 md:ml-0">
+                            <h4 className="mb-1 text-xl font-semibold">
+                                Junior IT Supporter
+                            </h4>
+                            <h6 className="mb-2 font-semibold">
+                                Pax Versicherung
+                            </h6>
+                            <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                                • 1st level acceptance, management and processing of faults <br></br>
+                                • Dismantling devices and wiring new monitor screens <br></br>
+                                • Installing and configuring new hardware and software <br></br>
+                                • Creating and updating documentations
+                            </p>
+                        </div>
+                    </li>
+                </ol>
             </div>
         </section>
     );

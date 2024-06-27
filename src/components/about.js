@@ -32,7 +32,7 @@ const About = () => {
           <br></br>
           <br></br>
           <a href="/#projects"
-            className="btn bg-accent border-2 border-[#4F46E5] text-white px-6 py-3 hover:bg-transparent block w-full" // Adjusting button width
+            className="btn bg-accent rounded-xl border-2 border-[#4F46E5] text-white px-6 py-3 hover:bg-transparent block w-full" // Adjusting button width
           >
             See Projects
           </a>
