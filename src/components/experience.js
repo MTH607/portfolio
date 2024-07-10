@@ -13,20 +13,21 @@ const Experience = () => {
                         <div className="flex-start flex items-center pt-2 md:block md:pt-0">
                             <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
                             <p className="mt-2 text-sm text-neutral-500 dark:text-neutral-300">
-                                Aug 2021 - 22
+                                Apr 2024 - Present
                             </p>
                         </div>
                         <div className="ml-4 mt-2 pb-5 md:ml-0">
                             <h4 className="mb-1 text-xl font-semibold">
-                                APPRENTICE IT SPECIALIST (IMS)
+                                Junior IT Supporter
                             </h4>
                             <h6 className="mb-2 font-semibold">
-                                NOVARTIS AG, BASEL
+                                Pax Versicherung
                             </h6>
                             <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                                • Worked on a project as an application developer. <br></br>
-                                • Developed in JavaScript with an internal <br></br>
-                                OpenSource MVC Framework called "WebCardinal"
+                                • 1st level acceptance, management and processing of faults <br></br>
+                                • Dismantling devices and wiring new monitor screens <br></br>
+                                • Installing and configuring new hardware and software <br></br>
+                                • Creating and updating documentations
                             </p>
                         </div>
                     </li>
@@ -58,21 +59,20 @@ const Experience = () => {
                         <div className="flex-start flex items-center pt-2 md:block md:pt-0">
                             <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
                             <p className="mt-2 text-sm text-neutral-500 dark:text-neutral-300">
-                                Apr 2024 - Present
+                                Aug 2021 - 22
                             </p>
                         </div>
                         <div className="ml-4 mt-2 pb-5 md:ml-0">
                             <h4 className="mb-1 text-xl font-semibold">
-                                Junior IT Supporter
+                                Apprentice IT Specialist (IMS)
                             </h4>
                             <h6 className="mb-2 font-semibold">
-                                Pax Versicherung
+                                Novartis AG, Basel
                             </h6>
                             <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                                • 1st level acceptance, management and processing of faults <br></br>
-                                • Dismantling devices and wiring new monitor screens <br></br>
-                                • Installing and configuring new hardware and software <br></br>
-                                • Creating and updating documentations
+                                • Worked on a project as an application developer. <br></br>
+                                • Developed in JavaScript with an internal <br></br>
+                                OpenSource MVC Framework called "WebCardinal"
                             </p>
                         </div>
                     </li>
